@@ -4,6 +4,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
+## Rules for this site (juandelc.com) — read first
+
+This is Juan del Campo's personal academic site, worked on by Juan, Claude Code, and Juan's Tech assistant.
+
+- **Always work through a pull request.** Branch from a freshly pulled `main`, one branch per change, open a PR. Never push to `main` or `gh-pages` directly; Juan merges.
+- **One editor per page.** Before editing a page, check open PRs (`gh pr list`) so two PRs don't touch the same file.
+- **Never commit secrets** (API keys, tokens, passwords, `.env` files) or unpublished research material. The repo is public.
+- **No UBC logos or branding** on this personal site.
+- **Don't touch deploy settings** (`CNAME`, Pages/DNS config, `.github/workflows/`) without Juan's OK.
+- **Content locations:** bio `_pages/about.md`, CV `_pages/cv.md` / `assets/pdf/`, publications `_bibliography/papers.bib`, projects `_projects/`, news `_news/`, site settings `_config.yml`.
+- Keep PRs small and describe what changed and why.
+
 `AGENTS.md` (imported above) is the **authoritative** agent entry point: change routing, the stop sign for gem-owned paths, the three silent failure modes, and the validated command set. Keep it short and ecosystem-neutral. Cross-repo architecture — the wrapper/tag/gem delegation table, feature gating, the v1 config contract, local overrides — lives in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md); area-to-gem ownership lives in [`docs/BOUNDARIES.md`](docs/BOUNDARIES.md).
 
 **Read those three before editing anything.** Everything below is Claude-specific or longer-form operational detail that does not belong in the short entry point. Do not restate facts from those files here — link to them.
