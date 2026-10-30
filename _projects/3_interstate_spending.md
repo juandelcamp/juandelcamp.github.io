@@ -8,7 +8,7 @@ category: research
 
 How does spending more on highways change both their condition and their carbon footprint?
 
-With Pablo Cid Ornelas and Omar Swei, I wrote the foundational Python code for a national model that links U.S. Interstate spending to pavement condition and global warming potential (GWP). It combines an **autoregressive distributed lag model** with probabilistic and economic **input–output life-cycle assessment**.
+With Paula Cid Ornelas and Omar Swei, I wrote the foundational Python code for a national model that links U.S. Interstate spending to pavement condition and global warming potential (GWP). It combines an **autoregressive distributed lag model** with probabilistic and economic **input–output life-cycle assessment**.
 
 The key finding is that higher spending improves condition but raises emissions, because the embodied impacts of construction outweigh the savings in the use stage.
 
