@@ -23,4 +23,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in Civil Engineering at the University of British Columbia (UBC). My research focuses on computational reinforcement learning, and I work closely with collaborators at MIT.
+I am a PhD candidate in Civil Engineering at the University of British Columbia, advised by [Dr. Omar Swei](https://civil.ubc.ca/omar-swei/). I build **deep reinforcement learning** methods for sequential decision-making in infrastructure: deciding how to design, maintain, and fund pavements so they stay in good condition at lower cost and lower carbon.
+
+In collaboration with the **MIT Concrete Sustainability Hub**, I am developing pre-trained RL agents that jointly optimize pavement structural design and life-cycle maintenance across many projects at once, without retraining. I also work on network-level pavement management, where agents must coordinate treatments across hundreds of road segments under tight budgets.
+
+**Research interests:** deep reinforcement learning (including model-based methods and world models) · sequential decision-making under uncertainty · infrastructure asset management · life-cycle cost analysis and life-cycle assessment.
+
+Before graduate school, I spent five years as a resident engineer supervising high-rise and residential construction in Mexico. I currently also build AI-based decision-support tools for Metro Vancouver's Project Delivery department.

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research projects and software.
 nav: true
 nav_order: 3
-display_categories: [research, software]
+display_categories: [research]
 horizontal: false
 ---
 
